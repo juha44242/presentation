@@ -1,0 +1,103 @@
+body {
+    background-color: #f9feff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+
+h1 { 
+    color:#02758D;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+h3 {
+    color: #02758D;
+    font-size: 17px;
+}
+
+p {
+    color: #02758D;
+}
+
+a {
+    cursor: pointer;
+}
+
+.header {
+    width: fit-content;
+    height: 150px;
+    background-color: #f9feff;
+    margin: 0;
+    padding: 0;  
+}
+
+.header-logo {
+    width: 120px;
+    height: 100%;
+    padding: 0 40px ;
+    margin: 10px 10px;
+    display: flex;   
+}
+
+.header-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: #f9feff;   
+}
+
+.header-nav ul {
+ list-style: none;
+}
+
+.header-nav ul li {
+  display: inline;
+  float: left;
+}
+
+.header-nav ul li a {
+  padding: 0 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  line-height: 75px;
+  color:#07758d;
+}
+
+.first-image {
+    max-width: fit-content;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.image-ikon {
+    width: 70px;
+    height: 70px;
+}
+
+.portfolio {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: normal;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media ( min-width: 992px) {
+
+}
